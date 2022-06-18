@@ -1,0 +1,231 @@
+.container {
+    width: 1115px;
+    margin: 0 auto;
+}
+header {
+    background-color: #f9f6f1;
+    padding: 73px 0 60px 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul {
+    list-style-type: none;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul {
+    display: flex;
+}
+.menu ul li:not(:last-child) {
+    margin-right: 50px;
+}
+.menu a:hover{
+    color: #7C5A42;
+}
+.header-content {
+    display: flex;
+    margin-top: 29.78px;
+    justify-content: space-between;
+}
+.header-content h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.header-content h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 67px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    margin-top: 45.22px;
+}
+.header-content .left p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #000000;
+    margin-top: 25px;
+}
+.main-btn {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    background-color: #d7b399;
+    padding: 17.23px 30px 18.24px 29px;
+    margin-top: 25px;
+    border: none;
+}
+.main-btn:hover{
+    background-color: #7C5A42;
+    transition: background-color 1s;
+}
+.old-price {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    text-decoration: line-through;
+    text-transform: uppercase;
+    color: #000000;
+}
+.new-price {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 51px;
+    text-align: right;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #d84033;
+    margin-top: 45px;
+}
+.header-content .left{
+    max-width: 570px;
+}
+.header-content .right{
+    max-width: 562px;
+}
+.shoe{
+    max-width: 561px;
+}
+.shoe:hover{
+    transform: scale(0.7) rotate(45deg);
+    transition: transform 1s;
+}
+#promo{
+    background-color: #212121;
+    height: 235px;
+}
+.promo-content h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    padding-top: 80px;
+}
+.promo-content h2{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 23px;
+}
+.promo-content span{
+    font-weight: 400;
+}
+footer{
+    background-color: #212121;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+.footer-content{
+    display: flex;
+    justify-content: end;
+    color: #ffffff;
+}
+.footer-content .main-links{
+    margin-right: 84px;
+}
+.categories{
+    margin-right: 76px;
+}
+.usefull-links{
+    margin-right: 53px;
+}
+.footer-content h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.footer-content a{
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #CBCFD4;
+    display: block;
+}
+.socials a{
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 29px;
+}
+.socials li:nth-child(1) a{
+    background-image: url(img/VK.png);
+}
+.socials li:nth-child(2) a{
+    background-image: url(img/Facebook.png);
+}
+.socials li:nth-child(3) a{
+    background-image: url(img/Instagram.png);
+}
+.contact{
+    background-color: #f9f6f1;
+}
+.contact-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 71px 0 72px 0;
+}
+.contact-content h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.contact-content input{
+    width: 255px;
+    border: 1px solid black;
+    padding: 13px 20px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.contact-content button{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 0;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
